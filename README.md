@@ -95,7 +95,8 @@ Switch between horizontal and vertical layouts for comparing multiple countries'
 This project was created by:
 
 - **Vehbi** ([GitHub](https://github.com/vehbiu))
-- **David (daveloperpl)** ([GitHub](https://github.com/daveloperpl))
+- **David** ([GitHub](https://github.com/daveloperpl))
+- **Arya** ([GitHub](https://github.com/aryapatel-dev08))
 
 We worked together to bring this project to life, combining our expertise to offer a comprehensive platform for exploring global development data.
 
