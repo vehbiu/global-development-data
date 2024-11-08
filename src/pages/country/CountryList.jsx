@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import useCountries from '../../hooks/useCountries'
 
 const CountryList = () => {
-    const countries = useCountries();
+    const { countries, loading } = useCountries();
 
     return (
         <div>
@@ -20,7 +20,7 @@ const CountryList = () => {
                                 </tr>
                             </thead>
                             <tbody>
-                                {countries.map((country) => (
+                                {!loading && countries.map((country) => (
                                     <tr key={country.id} className='hover:bg-gray-100'>
                                         <td className='px-4 py-2 border-b border-gray-300'>
                                             <Link className='text-blue-500 underline' to={`/country/${country.id}`}>{country.name}</Link>
