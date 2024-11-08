@@ -1,6 +1,8 @@
-# Global Development Data Explorer
+> ### Live Demo: https://global-development.vehbi.me/
 
+# Global Development Data Explorer
 ![React](https://img.shields.io/badge/React-%231D75B8.svg?style=flat&logo=react&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-%2338B2AC.svg?style=flat&logo=tailwind-css&logoColor=white) ![Recharts](https://img.shields.io/badge/Recharts-%234F85D8.svg?style=flat&logo=chart.js&logoColor=white) ![Lucide](https://img.shields.io/badge/Lucide-%231DA1F2.svg?style=flat&logo=lucide&logoColor=white)
+
 
 Welcome to the **Global Development Data Explorer**, a platform that provides access to global development indicators and country-specific data. Compare, analyze, and explore trends over time across various countries and regions.
 
