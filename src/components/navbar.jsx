@@ -12,6 +12,7 @@ export default function Navbar() {
     useEffect(() => {
         if (pathname.startsWith("/country/")) {
             const countries = pathname.split("/")[2];
+            if (countries === "") return;
             setSelectedCountries(countries.split(","));
         } else {
             setSelectedCountries([]);
