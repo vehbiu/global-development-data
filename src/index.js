@@ -6,7 +6,7 @@ import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 
 /* Base Layout */
 import Home from './Home';
-import Navbar from './components/navbar';
+import Navbar from './components/navigation/navbar';
 
 /* Indicator */
 import IndicatorsList from './pages/indicator/IndicatorsList'
@@ -21,11 +21,15 @@ import CountryByName from './pages/country/country-by-name/[countryName]/Country
 import SpendingData from './pages/usa-breakdown/UsaSim';
 import Other from './pages/usa-breakdown/other/Other';
 import UsaSpecific from './pages/usa-breakdown/[agency]/USAAgency';
+import Footer from './components/navigation/footer';
 
 const Layout = () => (
   <div className="min-h-screen bg-gray-50">
     <Navbar />
-    <Outlet />
+    <div className='min-h-screen'>
+      <Outlet />
+    </div>
+    <Footer />
   </div>
 )
 

@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Search, X, Clock, ArrowRight } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
-import useDebounce from '../hooks/useDebounce';
-import useCountries from '../hooks/useCountries';
-import { getIndicators } from '../lib/api';
+import useDebounce from '../../hooks/useDebounce';
+import useCountries from '../../hooks/useCountries';
+import { getIndicators } from '../../lib/api';
 
 const SearchBar = () => {
   const [isExpanded, setIsExpanded] = useState(false);

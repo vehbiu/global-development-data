@@ -1,7 +1,7 @@
 import SearchBar from "./search-bar";
 import { Globe } from 'lucide-react';
 import { Link, useResolvedPath } from 'react-router-dom';
-import { CompareButton } from './compare-button';
+import { CompareButton } from '../compare-button';
 import { useState, useEffect } from 'react';
 
 export default function Navbar() {
