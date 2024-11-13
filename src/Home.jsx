@@ -45,7 +45,7 @@ const Home = () => {
               </div>
               <h2 className="mt-6 text-2xl font-semibold text-gray-900">Explore by Indicator</h2>
               <p className="mt-4 text-gray-500">
-                Browse through <strong className='text-blue-600'>{indicators.length}</strong> different development
+                Browse through <strong className='text-blue-600'>{indicators.length.toLocaleString()}</strong> different development
                 indicators across all countries and regions.
               </p>
 
