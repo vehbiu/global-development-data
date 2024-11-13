@@ -167,6 +167,16 @@ const CountryInfo = () => {
     );
   }
 
+  if (countryMetadatas.length === 0 || countryMetadatas[0] == null) {
+    return (
+      <div className="px-4 py-8 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div className="flex items-center justify-center h-96">
+          <p className="text-xl font-medium text-gray-500">No data available for this country, does this country exist?</p>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="px-4 py-8 mx-auto max-w-7xl sm:px-6 lg:px-8">
       <Link
